@@ -1,4 +1,4 @@
-from to_do_app.db.engine import session
+from db.engine import session
 
 
 def get_db():
