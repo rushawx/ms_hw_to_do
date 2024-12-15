@@ -1,3 +1,5 @@
+ ```docker run -d -p 8000:80 -v todo_data:/app/data rushawx/todo-service:latest```
+
 TODO-сервис:
  <li> POST/items: Создание задачи (title, description?, completed=false) </li>
  <li> GET/items: Получение списка всех задач </li>
