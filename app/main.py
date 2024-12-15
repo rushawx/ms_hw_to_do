@@ -1,8 +1,8 @@
 import uvicorn
 from fastapi import FastAPI
 
-from db.engine import Base, engine
-from handlers.items import router as items_router
+from app.db.engine import Base, engine
+from app.handlers.items import router as items_router
 
 app = FastAPI()
 

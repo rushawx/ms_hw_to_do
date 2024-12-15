@@ -3,9 +3,9 @@ import datetime
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
-from db.engine import Item
-from models.items import AllItemsResponse, ItemRequest, ItemResponse
-from utils.utils import get_db
+from app.db.engine import Item
+from app.models.items import AllItemsResponse, ItemRequest, ItemResponse
+from app.utils.utils import get_db
 
 router = APIRouter(prefix="/items", tags=["items"])
 
